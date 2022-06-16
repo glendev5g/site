@@ -1,0 +1,118 @@
+*{
+  padding: 0;
+  margin: 0;
+  --bgColor: #202040;
+  --formColor: #202060;
+  --borderElementsColor: #1363DF;
+  --bgElementsColor: #06283D;
+  --fontColor: white;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bgColor);
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+/* LANDSCAPE VIEW */
+@media (orientation: landscape){
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: var(--formColor);
+  }
+  input{
+    font-size: 3vh;
+    color: var(--fontColor);
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 0px solid transparent;
+    background-color: transparent;
+  }
+  button{
+    font-size: 3vh;
+    border: 1px groove var(--borderElementsColor);
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 2%;
+    transition: all .3s;
+    color: var(--fontColor);
+    box-shadow: inset 10px 0px 0px -70px var(--bgElementsColor);
+  }
+  .text-field{
+    position: relative;
+    width: 80%;
+    padding: 2%;
+    border: 1px solid var(--borderElementsColor);
+    border-radius: 10px;
+    margin-top: auto;
+    box-shadow: inset 10px 0px 0px -70px var(--bgElementsColor);
+    transition: all .3s;
+  }
+}
+
+/* PORTRAIT VIEW */
+@media (orientation: portrait){
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--formColor);
+  }
+  input{
+    font-size: 3vh;
+    color: var(--fontColor);
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background-color: transparent;
+    border: 0px solid transparent;
+  }
+  button{
+    font-size: 3vh;
+    border: 1px groove var(--borderElementsColor);
+    cursor: pointer;
+    color: var(--fontColor);
+    background-color: transparent;
+    transition: all .3s;
+    border-radius: 10px;
+    box-shadow: inset 10px 0px 0px -70px var(--bgElementsColor);
+    margin-top: 10%;
+    padding: 2%;
+  }
+  .text-field{
+    width: 80%;
+    padding: 2%;
+    border: 1px solid var(--borderElementsColor);
+    border-radius: 10px;
+    transition: all .3s;
+    box-shadow: inset 10px 0px 0px -70px var(--bgElementsColor);
+    margin-top: 3%;
+  }
+}
+
+/* PSEUDO ELEMENTS */
+.text-field:focus-within{
+  box-shadow: inset 1000px 0px 0px -80px var(--bgElementsColor);
+}
+button:hover{
+  box-shadow: inset 1000px 0px 0px -80px var(--bgElementsColor);
+}
+button:active{
+  box-shadow: inset 1000px 0px 0px -80px var(--bgElementsColor);
+}
