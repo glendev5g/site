@@ -25,6 +25,44 @@ main{
     border-radius: 10px;
     background-color: var(--bgMenuColor);
   }
+  .contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 30px;
+    width: 50%;
+    height: 70%;
+    box-shadow: 10px 8px 30px #232323;
+  }
+  .perfil{
+    font-size: 40vh;
+    color: black;
+  }
+  .icones-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    margin: auto;
+    width: 75%;
+    height: 8vh;
+  }
+  .subtitle{
+    text-align: center;
+  }
+  svg{
+    color: #272743;
+    width: 7vh;
+    height: 7vh;
+  }
   label{
     display: flex;
     position: relative;
@@ -134,6 +172,44 @@ main{
     width: 100%;
     height: calc(100vh - var(--width));
     overflow: scroll;
+  }
+  .contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 30px;
+    width: 70%;
+    height: 60%;
+    box-shadow: 10px 8px 30px #232323;
+  }
+  .perfil{
+    font-size: 45vw;
+    color: black;
+  }
+  .icones-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    margin: auto;
+    width: 75%;
+    height: 8vw;
+  }
+  .subtitle{
+    text-align: center;
+  }
+  svg{
+    color: #272743;
+    width: 7vw;
+    height: 7vw;
   }
   .botoes{
     display: flex;
