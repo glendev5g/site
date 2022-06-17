@@ -37,15 +37,13 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #f5f5f5;
     border-radius: 30px;
     width: 50%;
     height: 70%;
-    box-shadow: 10px 8px 30px #232323;
   }
   .perfil{
     font-size: 40vh;
-    color: black;
+    color: whitesmoke;
   }
   .icones-card{
     display: flex;
@@ -55,11 +53,17 @@ main{
     width: 75%;
     height: 8vh;
   }
+  .nome{
+    font-size: 4vh;
+    color: whitesmoke;
+  }
   .subtitle{
+    color: whitesmoke;
     text-align: center;
+    font-size: 3vh;
   }
   svg{
-    color: #272743;
+    color: whitesmoke;
     width: 7vh;
     height: 7vh;
   }
@@ -185,15 +189,13 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #f5f5f5;
     border-radius: 30px;
     width: 70%;
-    height: 60%;
-    box-shadow: 10px 8px 30px #232323;
+    height: 70%;
   }
   .perfil{
     font-size: 45vw;
-    color: black;
+    color: whitesmoke;
   }
   .icones-card{
     display: flex;
@@ -203,11 +205,17 @@ main{
     width: 75%;
     height: 8vw;
   }
+  .nome{
+    font-size: 4vw;
+    color: whitesmoke;
+  }
   .subtitle{
+    color: whitesmoke;
     text-align: center;
+    font-size: 3vw;
   }
   svg{
-    color: #272743;
+    color: whitesmoke;
     width: 7vw;
     height: 7vw;
   }
