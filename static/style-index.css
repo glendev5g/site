@@ -71,7 +71,6 @@ main{
     display: flex;
     position: relative;
     border-radius: 30px;
-/*    border: 1px solid black;*/
     margin: 1vh;
     margin-top: 3vh;
     cursor: pointer;
@@ -103,6 +102,69 @@ main{
     background-image: linear-gradient(164deg, #3E3C63 0%,#272743 100%);
     -webkit-box-shadow: -1px 3px 9px 0px #000000;
     box-shadow: -1px 3px 9px 0px #000000;
+  }
+  .projetos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .nome-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vh;
+    height: 10vh;
+    width: 100%;
+    color: whitesmoke;
+    background-color: var(--bgMenuColor);
+    box-shadow: 0px 2px 5px black;
+  }
+  .banner{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+    height: 17vh;
+    background-color: #4D4C7D;
+    cursor: pointer;
+    border-top: 1vw black;
+    border-bottom: 1vw black;
+  }
+  .b-desc{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    color: whitesmoke;
+    margin-left: 1vh;
+    flex-direction: column;
+  }
+  .bibi-window{
+    fill: white;
+    height: 70%;
+    width: 10vw;
+    margin-left: 1vw;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .img-banner{
+    height: 90%;
+    margin-left: 1.4vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+  }
+  h1{
+    font-size: 4vh;
+    height: 23%;
+    color: whitesmoke;
+  }
+  h2{
+    font-size: 3vh;
+    width: 90%;
+    color: whitesmoke;
+  }
+  a{
+    text-decoration: none;
   }
   p{
     display: none;
@@ -196,6 +258,74 @@ main{
   .perfil{
     font-size: 45vw;
     color: whitesmoke;
+  }
+  .projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .nome-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vw;
+    height: 12vw;
+    width: 100%;
+    color: whitesmoke;
+    background-color: var(--bgMenuColor);
+    box-shadow: 0px 2px 5px black;
+  }
+  .banner{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+    height: 23vw;
+    background-color: #4D4C7D;
+    cursor: pointer;
+    border-top: 1vw black;
+    border-bottom: 1vw black;
+  }
+  .b-desc{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    color: whitesmoke;
+    margin-left: 2vh;
+    flex-direction: column;
+  }
+  .bibi-window{
+    fill: white;
+    height: 100%;
+    width: 10vh;
+    margin-left: 2vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+  }
+  .img-banner{
+    height: 90%;
+    margin-left: 1.4vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+  }
+  h1{
+    font-size: 4.5vw;
+    height: 23%;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  h2{
+    font-size: 3.5vw;
+    overflow: scroll;
+    width: 90%;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
   }
   .icones-card{
     display: flex;
