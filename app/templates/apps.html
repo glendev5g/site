@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+   <link rel="stylesheet" href="{{ url_for('static',filename='style-index.css') }}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+</head>
+<body>
+   <main>
+      <div class="menu">
+         
+         <a href="/">
+         <label>
+            <button class="botoes"><ion-icon name="menu-outline" class="icon"></ion-icon></button>
+            <p>Menu</p>
+         </label>
+         </a>
+
+         <a href="dashboard">
+         <label>
+            <button class="botoes"><ion-icon name="grid-outline"></ion-icon></button>
+            <p>Dashboard</p>
+         </label>
+         </a>
+
+         <a href="apps">
+         <label>
+            <button class="botoes active"><ion-icon name="apps-sharp"></ion-icon></button>
+            <p>Aplicativos</p>
+         </label>
+         </a>
+
+         <a href="projetos">
+         <label>
+            <button class="botoes"><ion-icon name="code-outline"></ion-icon></button>
+            <p>Projetos</p>
+         </label>
+         </a>
+
+         <a href="contatos">
+         <label>
+            <button class="botoes"><ion-icon name="chatbox-ellipses-sharp"></ion-icon></button>
+            <p>Contatos</p>
+         </label>
+         </a>
+      </div>
+
+      <div class="conteudo">
+         
+         <div class="projetos">
+            <h1 class="nome-p">Aplicativos</h1>
+
+            <a href="https://play.google.com/store/apps/details?id=com.vembrabo.vip1">
+            <div class="banner">
+               <img src="{{ url_for('static',filename='images/jmvelox1.jpg') }}" class="img-banner">
+               <div class="b-desc">
+                  <h1>JM Velox Remake</h1>
+                  <h2></h2>
+               </div>
+               <img class="img-google" src="{{ url_for('static',filename='images/googleplay.png') }}"/>
+            </div>
+            </a>
+
+            <a href="https://play.google.com/store/apps/details?id=com.jmvelox.vpn">
+            <div class="banner">
+               <img src="{{ url_for('static',filename='images/jmvelox1.jpg') }}" class="img-banner">
+               <div class="b-desc">
+                  <h1>JM Velox VPN</h1>
+                  <h2></h2>
+               </div>
+               <img class="img-google" src="{{ url_for('static',filename='images/googleplay.png') }}"/>
+            </div>
+            </a>
+
+            <a href="https://play.google.com/store/apps/details?id=com.jmvelox.vip1">
+            <div class="banner">
+               <img src="{{ url_for('static',filename='images/premium.png') }}" class="img-banner">
+               <div class="b-desc">
+                  <h1>Premium NET</h1>
+                  <h2></h2>
+               </div>
+               <img class="img-google" src="{{ url_for('static',filename='images/googleplay.png') }}"/>
+            </div>
+            </a>
+
+            <a href="https://play.google.com/store/apps/details?id=com.teuzinho.vpo">
+            <div class="banner">
+               <img src="{{ url_for('static',filename='images/teusinho.jpg') }}" class="img-banner">
+               <div class="b-desc">
+                  <h1>Teusinho NET</h1>
+                  <h2></h2>
+               </div>
+               <img class="img-google" src="{{ url_for('static',filename='images/googleplay.png') }}"/>
+            </div>
+            </a>
+
+            <a href="https://play.google.com/store/apps/details?id=com.elisanet.vpn">
+            <div class="banner">
+               <img src="{{ url_for('static',filename='images/elisa.png') }}" class="img-banner">
+               <div class="b-desc">
+                  <h1>Elisa Net VPN</h1>
+                  <h2></h2>
+               </div>
+               <img class="img-google" src="{{ url_for('static',filename='images/googleplay.png') }}"/>
+            </div>
+            </a>
+
+            <a href="https://play.google.com/store/apps/details?id=com.pirate.blackflag">
+            <div class="banner">
+               <img src="{{ url_for('static',filename='images/blackflag.png') }}" class="img-banner">
+               <div class="b-desc">
+                  <h1>Black Flag VPN</h1>
+                  <h2></h2>
+               </div>
+               <img class="img-google" src="{{ url_for('static',filename='images/googleplay.png') }}"/>
+            </div>
+            </a>
+      </div>
+
+   </main>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
